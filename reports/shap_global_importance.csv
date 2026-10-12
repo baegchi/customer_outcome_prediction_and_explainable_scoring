@@ -1,0 +1,6 @@
+feature,mean_abs_shap
+fico,0.751443
+dti,0.583604
+annual_inc,0.300113
+inq_last_6mths,0.206029
+has_delinq,0.05805

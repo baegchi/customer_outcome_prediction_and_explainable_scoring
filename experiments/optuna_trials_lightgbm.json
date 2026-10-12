@@ -1,0 +1,87 @@
+[
+  {
+    "number": 0,
+    "value": 0.716972,
+    "params": {
+      "n_estimators": 125,
+      "max_depth": 8,
+      "num_leaves": 50,
+      "learning_rate": 0.060099747183803134,
+      "min_child_samples": 40,
+      "subsample": 0.6,
+      "colsample_bytree": 0.6,
+      "reg_alpha": 0.6245760287469893,
+      "reg_lambda": 0.002570603566117598
+    },
+    "state": "TrialState.COMPLETE",
+    "duration_sec": 2.415
+  },
+  {
+    "number": 1,
+    "value": 0.721098,
+    "params": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "num_leaves": 62,
+      "learning_rate": 0.12106896936002161,
+      "min_child_samples": 40,
+      "subsample": 0.6,
+      "colsample_bytree": 0.6,
+      "reg_alpha": 5.472429642032198e-06,
+      "reg_lambda": 0.00052821153945323
+    },
+    "state": "TrialState.COMPLETE",
+    "duration_sec": 2.2
+  },
+  {
+    "number": 2,
+    "value": 0.708516,
+    "params": {
+      "n_estimators": 125,
+      "max_depth": 4,
+      "num_leaves": 44,
+      "learning_rate": 0.01518747922672247,
+      "min_child_samples": 60,
+      "subsample": 0.7,
+      "colsample_bytree": 0.8,
+      "reg_alpha": 0.1165691561324743,
+      "reg_lambda": 6.267062696005991e-07
+    },
+    "state": "TrialState.COMPLETE",
+    "duration_sec": 2.177
+  },
+  {
+    "number": 3,
+    "value": 0.722461,
+    "params": {
+      "n_estimators": 150,
+      "max_depth": 6,
+      "num_leaves": 17,
+      "learning_rate": 0.061721159481070736,
+      "min_child_samples": 40,
+      "subsample": 0.6,
+      "colsample_bytree": 1.0,
+      "reg_alpha": 4.905556676028774,
+      "reg_lambda": 0.18861495878553936
+    },
+    "state": "TrialState.COMPLETE",
+    "duration_sec": 2.168
+  },
+  {
+    "number": 4,
+    "value": 0.714402,
+    "params": {
+      "n_estimators": 100,
+      "max_depth": 3,
+      "num_leaves": 48,
+      "learning_rate": 0.03738105868191797,
+      "min_child_samples": 30,
+      "subsample": 0.8,
+      "colsample_bytree": 0.6,
+      "reg_alpha": 1.527156759251193,
+      "reg_lambda": 2.133142332373004e-06
+    },
+    "state": "TrialState.COMPLETE",
+    "duration_sec": 1.926
+  }
+]

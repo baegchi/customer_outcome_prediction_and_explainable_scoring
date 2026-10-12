@@ -1,0 +1,26 @@
+{
+  "status": "success",
+  "model_type": "lightgbm",
+  "objective_metric": "roc_auc",
+  "best_score": 0.722461,
+  "best_params": {
+    "n_estimators": 150,
+    "max_depth": 6,
+    "num_leaves": 17,
+    "learning_rate": 0.061721159481070736,
+    "min_child_samples": 40,
+    "subsample": 0.6,
+    "colsample_bytree": 1.0,
+    "reg_alpha": 4.905556676028774,
+    "reg_lambda": 0.18861495878553936
+  },
+  "n_trials_completed": 5,
+  "total_time_sec": 11.28,
+  "artifacts": {
+    "best_config_yaml": "experiments/optuna_best_config_lightgbm.yaml",
+    "best_config_json": "experiments/optuna_best_config_lightgbm.json",
+    "trials_csv": "experiments/optuna_trials_lightgbm.csv",
+    "trials_json": "experiments/optuna_trials_lightgbm.json",
+    "sqlite_db": "sqlite:///experiments/optuna_study.db"
+  }
+}

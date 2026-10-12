@@ -1,0 +1,21 @@
+{
+  "model_type": "lightgbm",
+  "objective_metric": "roc_auc",
+  "best_cv_score": 0.722461,
+  "best_trial_number": 3,
+  "best_hyperparameters": {
+    "n_estimators": 150,
+    "max_depth": 6,
+    "num_leaves": 17,
+    "learning_rate": 0.061721159481070736,
+    "min_child_samples": 40,
+    "subsample": 0.6,
+    "colsample_bytree": 1.0,
+    "reg_alpha": 4.905556676028774,
+    "reg_lambda": 0.18861495878553936
+  },
+  "feature_mode": "woe",
+  "tuning_completed_at": "20260904_094847",
+  "total_trials": 5,
+  "total_tuning_time_sec": 11.28
+}

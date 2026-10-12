@@ -1,0 +1,106 @@
+[
+  {
+    "sample_index": 400,
+    "predicted_default_prob": 0.930941,
+    "base_value": -1.03649,
+    "top_positive_contributors": [
+      {
+        "feature": "fico",
+        "original_value": 644.195,
+        "shap_value": 2.255802
+      },
+      {
+        "feature": "inq_last_6mths",
+        "original_value": 3.0,
+        "shap_value": 0.576213
+      },
+      {
+        "feature": "annual_inc",
+        "original_value": 34801.8121,
+        "shap_value": 0.320133
+      },
+      {
+        "feature": "dti",
+        "original_value": 20.8359,
+        "shap_value": 0.300083
+      },
+      {
+        "feature": "has_delinq",
+        "original_value": 1.0,
+        "shap_value": 0.185497
+      }
+    ],
+    "top_negative_contributors": [],
+    "plot_path": "reports/figures/shap_local_sample_400.png"
+  },
+  {
+    "sample_index": 140,
+    "predicted_default_prob": 0.297046,
+    "base_value": -1.03649,
+    "top_positive_contributors": [
+      {
+        "feature": "dti",
+        "original_value": 27.9895,
+        "shap_value": 0.312644
+      },
+      {
+        "feature": "annual_inc",
+        "original_value": 134404.1101,
+        "shap_value": 0.231128
+      }
+    ],
+    "top_negative_contributors": [
+      {
+        "feature": "inq_last_6mths",
+        "original_value": 0.0,
+        "shap_value": -0.158583
+      },
+      {
+        "feature": "fico",
+        "original_value": 707.9611,
+        "shap_value": -0.151433
+      },
+      {
+        "feature": "has_delinq",
+        "original_value": 0.0,
+        "shap_value": -0.058672
+      }
+    ],
+    "plot_path": "reports/figures/shap_local_sample_140.png"
+  },
+  {
+    "sample_index": 175,
+    "predicted_default_prob": 0.01877,
+    "base_value": -1.03649,
+    "top_positive_contributors": [
+      {
+        "feature": "inq_last_6mths",
+        "original_value": 1.0,
+        "shap_value": 0.104163
+      }
+    ],
+    "top_negative_contributors": [
+      {
+        "feature": "fico",
+        "original_value": 728.9514,
+        "shap_value": -1.548102
+      },
+      {
+        "feature": "dti",
+        "original_value": 10.8208,
+        "shap_value": -0.894972
+      },
+      {
+        "feature": "annual_inc",
+        "original_value": 75455.2954,
+        "shap_value": -0.572738
+      },
+      {
+        "feature": "has_delinq",
+        "original_value": 1.0,
+        "shap_value": -0.008416
+      }
+    ],
+    "plot_path": "reports/figures/shap_local_sample_175.png"
+  }
+]

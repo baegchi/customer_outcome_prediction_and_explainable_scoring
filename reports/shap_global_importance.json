@@ -1,0 +1,22 @@
+[
+  {
+    "feature": "fico",
+    "mean_abs_shap": 0.751443
+  },
+  {
+    "feature": "dti",
+    "mean_abs_shap": 0.583604
+  },
+  {
+    "feature": "annual_inc",
+    "mean_abs_shap": 0.300113
+  },
+  {
+    "feature": "inq_last_6mths",
+    "mean_abs_shap": 0.206029
+  },
+  {
+    "feature": "has_delinq",
+    "mean_abs_shap": 0.05805
+  }
+]

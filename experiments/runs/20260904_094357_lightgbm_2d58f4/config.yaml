@@ -1,0 +1,10 @@
+model_type: lightgbm
+hyperparameters: {}
+feature_mode: woe
+n_splits: 3
+threshold: 0.3
+random_state: 42
+experiment_name: null
+max_bins: 10
+iv_threshold: 0.02
+min_bin_pct: 0.05

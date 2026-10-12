@@ -1,0 +1,84 @@
+raw_path: "kagglehub/datasets/wordsforthewise/lending-club/versions/3/accepted_2007_to_2018Q4.csv.gz"
+raw_path_uncompressed: "kagglehub/datasets/wordsforthewise/lending-club/versions/3/accepted_2007_to_2018q4.csv/accepted_2007_to_2018Q4.csv"
+random_seed: 42
+
+splits:
+  train_end: "2015-12-31"
+  dev_end: "2016-12-31"
+  oot_start: "2017-01-01"
+
+exclude_columns:
+  leakage_post_outcome:
+    - out_prncp
+    - out_prncp_inv
+    - total_pymnt
+    - total_pymnt_inv
+    - total_rec_prncp
+    - total_rec_int
+    - total_rec_late_fee
+    - recoveries
+    - collection_recovery_fee
+    - last_pymnt_d
+    - last_pymnt_amnt
+    - next_pymnt_d
+  leakage_credit_refresh:
+    - last_fico_range_high
+    - last_fico_range_low
+    - last_credit_pull_d
+  leakage_lc_underwriting:
+    - grade
+    - sub_grade
+    - int_rate
+    - installment
+    - funded_amnt
+    - funded_amnt_inv
+  leakage_hardship:
+    - hardship_flag
+    - hardship_type
+    - hardship_reason
+    - hardship_status
+    - deferral_term
+    - hardship_amount
+    - hardship_start_date
+    - hardship_end_date
+    - payment_plan_start_date
+    - hardship_length
+    - hardship_dpd
+    - hardship_loan_status
+    - orig_projected_additional_accrued_interest
+    - hardship_payoff_balance_amount
+    - hardship_last_payment_amount
+  leakage_settlement:
+    - debt_settlement_flag
+    - debt_settlement_flag_date
+    - settlement_status
+    - settlement_date
+    - settlement_amount
+    - settlement_percentage
+    - settlement_term
+  identifiers:
+    - id
+    - member_id
+    - url
+  constants:
+    - policy_code
+  high_cardinality_text:
+    - emp_title
+    - desc
+    - title
+  other:
+    - pymnt_plan
+
+target_column: "loan_status"
+target_positive:
+  - "Charged Off"
+  - "Does not meet the credit policy. Status:Charged Off"
+  - "Default"
+target_negative:
+  - "Fully Paid"
+  - "Does not meet the credit policy. Status:Fully Paid"
+target_exclude:
+  - "Current"
+  - "Late (31-120 days)"
+  - "In Grace Period"
+  - "Late (16-30 days)"
